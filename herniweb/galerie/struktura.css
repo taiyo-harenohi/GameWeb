@@ -1,0 +1,170 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Fondamento&display=swap');
+body {background:#121E20;font-family:calibri; color:#D6C8B8;}
+
+header, article, footer, nav {
+width:3800px; margin:auto;border-radius: 50px 0 50px 0; text-align:center;border: 4px groove #E68D3C;
+}
+
+header{
+background:url('header.png');
+background-size: cover;
+background-position: center center;
+border: 4px groove #E68D3C;
+margin-top:500px;
+position:relative;
+height:1000px;     
+}
+
+nav {background:black; margin-top:80px;border-radius:20px; height:250px}
+nav a {width:800px;display:inline-block; font-size: 75px;  
+font-family: 'Fondamento', cursive; color: white;
+margin:15px;
+} 
+nav a:hover{color:#905526} 
+
+#titulek{
+color: #E68D3C;
+font-size:150px;
+position:absolute;
+left:0;
+top:-190px;
+font-family: 'Fondamento', cursive;
+}
+
+#motto{
+color: #E68D3C;
+font-size:60px;
+position:absolute;
+left:1050px;
+top:-100px; 
+font-family: 'Fondamento', cursive;
+}
+
+article{
+background:#E6A569;
+margin-top:160px;
+margin-bottom:20px;
+height: 1800px;
+}
+
+#clanek
+{
+width:1750px; 
+margin:auto;
+border-radius: 50px 0 50px 0;
+text-align:center;
+border: 4px groove #E68D3C;
+background:#E6A569;
+margin-top:140px;
+margin-bottom:20px;
+height: 2500px;
+}
+
+h1,h2{
+font-family: 'Fondamento', cursive; color: white;
+}
+h1{
+font-size:85px;}
+h2{
+font-size:70px;
+}
+p{
+margin:10px;font-size:35px;text-align:center;
+}
+h3{
+font-family: 'Fondamento', cursive; color: white;
+color:#154A69;
+font-size:55px;
+text-align:left;
+}
+h4{
+font-family: 'Fondamento', cursive; color: white;
+color:#154A69;
+font-size:45px;
+text-align:right;
+}
+
+.odsazene{
+width:60%;text-align:center;margin:auto;
+}
+.sklonene{
+font-style:italic; color:#121E20;
+}
+
+footer{
+margin-top:80px;
+background: black;
+display:flex;
+align-items: center;
+height:250px;
+}
+
+footer div{
+width:1000px;
+height:150px;
+margin:2px;
+color:white;
+font-size:25px;
+}
+
+footer div h2 {margin:0px;color:white;}
+footer div table  {margin:auto;}
+
+section.tri_sloupce {
+width:100%;
+display: flex;
+align-items: center;
+}
+section.tri_sloupce div {width:2000px; margin:7px; text-align:center;}
+section.tri_sloupce div div {width:200px;height:200px; margin:auto;
+border-radius:100px; background:url('hlava.png');  
+background-size:cover;
+background-position: center center;
+}  
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+header,footer,article,nav {
+width:100%; border-radius:0; border:0;margin:0;
+}
+footer, article{
+height:auto;
+}
+nav a {width:100%; background:#040718;color:#818393;border-bottom:1px dotted white}
+section.tri_sloupce {
+display:block; 
+}
+div#menu{display:block;height:50px;background:black;color:white;font-size:45px;}
+
+
+
+section.tri_sloupce div {width:100%}
+footer{display:block;height:auto;}
+footer div {width:100%;height:auto; border-bottom:1px dotted white;}
+
+#titulek{
+  color: #849A8D;
+  font-size:60px;
+  position:absolute;
+  right:10px;
+  top:60px;
+  font-family:pacifico;
+  } 
+  
+  #motto{
+color: #849A8D;
+font-size:40px;
+position:absolute;
+left:250px;
+top:0px; 
+font-family: 'Fondamento', cursive;
+}
+  
+h1 {font-size:50px;}  
+p,table{font-size:35px;text-align:center;}  
+
+}
